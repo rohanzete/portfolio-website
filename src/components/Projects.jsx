@@ -8,7 +8,7 @@ const projects = [
     subtitle: 'Real Time Chat App',
     description: 'Full-stack real-time chat application using the MERN stack with Socket.io for instant messaging, JWT authentication, and optimized MongoDB schemas.',
     tech: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Socket.io', 'Tailwind CSS'],
-    github: 'https://github.com/rohanzete',
+    github: 'https://github.com/rohanzete/chatapp_mern',
     live: null,
     gradient: 'linear-gradient(135deg, #6366f1, #8b5cf6)',
     emoji: '💬',
@@ -18,7 +18,7 @@ const projects = [
     subtitle: 'Personal Travel Diary App',
     description: 'Full-stack travel diary app using MERN stack. Users can create, store, and manage personal travel experiences with JWT auth and Multer-based image upload.',
     tech: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Tailwind CSS', 'Multer'],
-    github: 'https://github.com/rohanzete',
+    github: 'https://github.com/rohanzete/personal-travel-diary-app_mern',
     live: null,
     gradient: 'linear-gradient(135deg, #f59e0b, #ef4444)',
     emoji: '✈️',
@@ -33,6 +33,17 @@ const projects = [
     gradient: 'linear-gradient(135deg, #10b981, #3b82f6)',
     emoji: '🌾',
   },
+  {
+    title: 'CodeMate',
+    subtitle: 'AI Powered Code Reviewer',
+    description: 'AI-powered web application built with React.js and Gemini API that analyzes code and provides real-time feedback on errors, optimization, and best practices, helping improve code quality.',
+    tech: ['React.js', 'Tailwind CSS', 'Gemini API'],
+    github: 'https://github.com/rohanzete/ai-powered-code-reviewer-mern',
+    live: null,
+    gradient: 'linear-gradient(135deg, #6366f1, #8b5cf6)',
+    emoji: '🤖',
+  },
+  
 ]
 
 export default function Projects() {
